@@ -189,6 +189,7 @@ public class Util {
 		return num;
 	}
 
+	// Shortens the print method slightly
 	public void print(String... str) {
 		if (str.length == 0) {
 			System.out.print("null");
@@ -197,6 +198,7 @@ public class Util {
 		}
 	}
 
+	// Shortens the print new line method slightly
 	public void println(String... str) {
 		if(str.length == 0){
 			System.out.println();
